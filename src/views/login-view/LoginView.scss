@@ -1,0 +1,46 @@
+.login-view {
+  margin-top: 70px;
+
+  &__alert {
+    color: $alert-text-color;
+    margin: auto;
+    margin-bottom: 20px;
+    max-width: 20rem;
+    width: fit-content;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 0.75rem;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+  
+    label {
+        margin-bottom: 0.5rem;
+    }
+  
+    input {
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        border: 1px solid #ccc;      
+        border-radius: 4px;
+        width: 100%;
+        max-width: 20rem;
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        color: $primary-text-color;
+    }
+  }
+  
+  &__button--disabled {
+    background-color: $grey-background;
+    &:hover {
+      background-color: $grey-background;
+    }
+  }
+}

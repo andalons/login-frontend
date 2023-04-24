@@ -1,0 +1,41 @@
+.page-header {
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: $grey-background;
+    display: flex;
+
+    .button-wrapper {
+      padding-left: 15px;
+      display:flex;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .page-nav {
+      max-width: 1200px;
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+      border-top: none;
+      padding-right: 40px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      .routerlink {
+        padding: 14px 30px;
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        color: $primary-text-color;
+      }
+      .router-link-active {
+        color: $primary-text-color;
+        font-weight: 400;
+        border-bottom: 2px solid $primary-text-color;
+      }
+    }
+  }

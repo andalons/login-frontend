@@ -1,0 +1,38 @@
+body {
+    width: 100%;
+    margin:0;
+    box-sizing: border-box;
+    background: $white-background;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  h1,
+  h2 {
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+  }
+  
+  #app {
+    width: 100%;
+  }
+  
+  .router-link-active {
+    color: $primary-text-color;
+    border-bottom: 1.5px solid $primary-text-color;
+  }
+
+  button {
+    padding: 0.5rem 1rem;
+    min-width: 80px;
+    background-color: $primary-background;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: $secondary-background;
+    }
+}
